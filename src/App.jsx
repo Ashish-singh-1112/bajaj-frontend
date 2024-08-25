@@ -26,7 +26,7 @@ function App() {
       }
       
       // Send POST request to the backend
-      const res = await axios.post('https://sarthak-bajaj-test-gzvp.onrender.com/bfhl', { data: parsedData.data });
+      const res = await axios.post('https://bajaj-finserv-dbta.onrender.com/bfhl', { data: parsedData.data });
       
       setResponse(res.data);
     } catch (err) {
